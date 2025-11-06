@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 import Home from './Home'
 import Contact from './Contact'
@@ -18,6 +19,9 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           </Routes>
+          <div>
+            <Footer/>
+          </div>
          </Router>
         
     </div>
